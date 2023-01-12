@@ -33,6 +33,4 @@ function LoginPage() {
       <Footer />
     </div>
   );
-}
 
-export default LoginPage;
