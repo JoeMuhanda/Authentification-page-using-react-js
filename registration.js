@@ -54,7 +54,8 @@ function RegistrationPage() {
       )}
       <footer>Copyright © {new Date().getFullYear()}</footer>
     </div>
+
   );
 }
-
 export default RegistrationPage;
+
