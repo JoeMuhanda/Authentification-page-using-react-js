@@ -5,6 +5,11 @@ function LoginPage() {
   const [error, setError] = useState('');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+function LoginPage() {
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   const handleSubmit = (event) => {
     event.preventDefault();
     if (password.length >= 6 && /[!@#$%^&*(),.?":{}|<>]/.test(password)) {
