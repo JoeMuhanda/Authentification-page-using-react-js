@@ -16,7 +16,7 @@ function RegistrationPage() {
     setPassword(e.target.value);
   };
 
-  return 
+  return {
     <div>
       <nav>
         <Link to="/">Home</Link>
