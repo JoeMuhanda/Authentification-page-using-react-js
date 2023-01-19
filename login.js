@@ -19,7 +19,10 @@ function LoginPage() {
     }
   }
 
-  i
+  if (isLoggedIn) {
+    return <Redirect to='/home' />
+  }
+  return (
     <div>
       <NavigationBar />
       <form onSubmit={handleSubmit}>
