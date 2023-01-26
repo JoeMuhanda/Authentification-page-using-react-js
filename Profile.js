@@ -15,7 +15,7 @@ const ProfilePage = () => {
   }, []);
 
   return (
-    <div
+    <div>
       <h1>Welcome, {user.name}</h1>
       <p>Email: {user.email}</p>
       <p>Address: {user.address}</p>
