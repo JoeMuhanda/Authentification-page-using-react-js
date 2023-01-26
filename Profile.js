@@ -20,7 +20,7 @@ const ProfilePage = () => {
       <p>Email: {user.email}</p>
       <p>Address: {user.address}</p>
     </div>
-  )
+  );
 };
 
 export default ProfilePage;
